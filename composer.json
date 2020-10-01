@@ -2,6 +2,8 @@
   "name": "nolka/translation-loader-yii2",
   "description": "Translations load/unload adapter for Yii2",
   "minimum-stability": "stable",
+  "type": "yii2-extension",
+  "version": "0.1.1",
   "license": "MIT",
   "authors": [
     {
@@ -10,6 +12,11 @@
     }
   ],
   "require": {
-    "nolka/translation-loader-core": "~0.1"
+    "nolka/translation-loader-core": "~0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TranslationLoader\\Yii2\\": "src/"
+    }
   }
 }
