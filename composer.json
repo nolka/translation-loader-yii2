@@ -1,0 +1,15 @@
+{
+  "name": "nolka/translation-loader-yii2",
+  "description": "Translations load/unload adapter for Yii2",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nolka",
+      "email": "xternalx@gmail.com"
+    }
+  ],
+  "require": {
+    "nolka/translation-loader-core": "~0.1"
+  }
+}
